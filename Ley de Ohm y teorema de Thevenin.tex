@@ -31,7 +31,44 @@ R_{serie}=\sum_{i=1}^N R_{i}
 Además, podemos declarar a partir de las resistencias en serie, una asociación de resistencias. Capaces de repartir la tensión suminnistrada a cada uno de los ementos de la asociación. De este modo, la tensión "Vi" que el elemento i recibirá vendrá dado por la ecuación:
 
 \begin{displaymath}
-R_{serie}=\sum_{i=1}^N R_{i}
+V_i=\frac{R_i}{\sum_{i=1}^N R_{i}}V_0
 \end{displaymath}
+
+\subsection{Teorema de Thevenin-Norton}
+El teorema de Thevenin-Norton permite estudiar circuitos complejos a los cuales somos incapaces de acceder en su totalidad o resultan demasiado complejos para poder ser representados gráficamente.\\ \\
+\begin{em}
+“Cualquier red fuente resistiva lineal actúa desde una par de terminales como una fuente de tensión ideal, denominada tensión Thevenin, conectada en serie a una resistencia de valor RTh, denominada resistencia Thevenin”
+\end{em}\\ \\
+De este modo, es posible obtener la tensión Thevenin y la resistencia Thevenin en las siguientes condiciones:
+
+
+\begin{displaymath}
+V_{Th}=V_{ab}\|_{I=0}
+\end{displaymath}
+
+\begin{displaymath}
+R_{Th}=R_{ab}\|_{Todas\,las\,fuentes\,cortocircuitadas}
+\end{displaymath}
+
+\section{Realización de la Práctica}
+En la primera parte de la sesión debiamos identificar los elementos circuitales que se encontraban en el entrenador. El circuito estaba compuesto por 4 resistencias, una conexión para un amperímetro, y una conexión para una fuente de ténsión variable.\\
+En la siguiente tabla se muestran los valores obtenidos de las resistencias:
+
+\begin{table}
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+/ & Valor ominal & Tolerancia & Valor medio & Precisión del polímetro \\ 
+\hline 
+R1 & 4,7 & 5\% & 4,656 & 0,045 \\ 
+\hline 
+R2 & 33 & 5\% & 33,11 & 0,33 \\ 
+\hline 
+R3 & 10,0 & 5\% & 9,97 & 0,12 \\ 
+\hline 
+R4 & 22,0 & 5\% & 21,79 & 0,23 \\ 
+\hline 
+
+\end{tabular} 
+\end{table}
 
 \end{document}
