@@ -29,7 +29,7 @@ Cuando por dos o más elementos circuitales fluye la misma corriente se dice que
 R_{serie}=\sum_{i=1}^N R_{i}
 \end{displaymath}
 
-Además, podemos declarar a partir de las resistencias en serie, una asociación de resistencias. Capaces de repartir la tensión suminnistrada a cada uno de los ementos de la asociación. De este modo, la tensión "Vi" que el elemento i recibirá vendrá dado por la ecuación:
+Además, podemos declarar a partir de las resistencias en serie, una asociación de resistencias. Capaces de repartir la tensión suminnistrada a cada uno de los ementos de la asociación. De este modo, la tensión "$V_i$" que el elemento i recibirá vendrá dado por la ecuación:
 
 \begin{displaymath}
 V_i=\frac{R_i}{\sum_{i=1}^N R_{i}}V_0
@@ -57,7 +57,7 @@ En la siguiente tabla se muestran los valores obtenidos de las resistencias:\\
 
 \begin{tabular}{|c|c|c|c|c|}
 \hline 
-/ & Valor ominal & Tolerancia & Valor medio & Precisión del polímetro \\ 
+/ & Valor nominal & Tolerancia & Valor medio & Precisión del polímetro \\ 
 \hline 
 R1 & 4,7 & 5\% & 4,656 & 0,045 \\ 
 \hline 
@@ -69,7 +69,7 @@ R4 & 22,0 & 5\% & 21,79 & 0,23 \\
 \hline 
 \end{tabular}\\
 
-Una vez obtenidos los valores de las resistencias, se montó el dibujo de la figura 2. En éste, se midió el valor de las tensiones Vaby Vbc en el intervalo de [0,20V] con estos datos que quedan reflejados en la tabla del apendice obtuvimos las siguientes gráficas:
+Una vez obtenidos los valores de las resistencias, se montó el dibujo de la figura 2. En éste, se midió el valor de las tensiones Vab y Vbc en el intervalo de [0,20V] con estos datos que quedan reflejados en la tabla del apendice obtuvimos las siguientes gráficas:
 
 
 \begin{figure}[hbtp]
@@ -87,8 +87,41 @@ Una vez obtenidos los valores de las resistencias, se montó el dibujo de la fig
 \caption{Gráfica bc}
 \end{figure}
 
+\newpage
 \subsection{Theorema de Thevenin}
-Hola a todos
 
+Para probar el teorema de thevenin se preparó en el entrenador el circuito de la figura 1 añadiendo dos cables de cobre.
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.5]{Imagenes/Entrenador_B.png}
+\caption{Circuito B del entrenador}
+\end{figure}
+
+Tras ello, procedimos a medir la tensión Thevenin y la resistencia Thevenin entre los terminales “A”, y “B”. Además se hizo uso de una resistencia de valor nominal de 100 $\Omega$ para medir la tensión en la resistencia cuando se conecta a los puntos “A”,y “B”. De este modo obtuvimos los siguientes resultados:\\
+
+\begin{tabular}{|c|c|}
+\hline
+Tensión Thevenin experimental ($V_{Th}$) & 5,76 V\\
+\hline
+Resistencia Thevenin experimental ($R_{Th}$) & 10,92 k$\Omega$ \\
+\hline
+Valor de la resistencia de carga ($R_{carga}$) & 98,7 $\Omega$ \\
+\hline
+Tensión en la resistencia de carga ($V_{carga}$)	& 52,0 mV \\
+\hline
+\end{tabular}\\
+
+Tras ello se montó un circuito equivalente formado por una fuente de tensión continua con valor $V_{Th}$ y un potenciómetro con una resistencia $R_{Th}$ tal y como aparece en la figura:
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.5]{Imagenes/circuito.png}
+\caption{Circuito equivalente}
+\end{figure}
+Obteniendo un valor de 98,6 $\Omega$ y 51,6 mV. La diferencia de valores respecto al circuito original puede ser debido a o disponer de una fuente de tension de suficiente precision para alcanzar la tensión $V_{Th}$.
+
+\newpage
+\section{Apéndice}
 
 \end{document}

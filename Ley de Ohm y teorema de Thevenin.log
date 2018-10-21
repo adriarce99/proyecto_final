@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.18)  21 OCT 2018 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.18)  21 OCT 2018 20:19
 entering extended mode
 **"./Ley de Ohm y teorema de Thevenin.tex"
 ("Ley de Ohm y teorema de Thevenin.tex"
@@ -508,7 +508,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--57
  []
 
 
-Overfull \hbox (10.12569pt too wide) in paragraph at lines 58--71
+Overfull \hbox (16.20903pt too wide) in paragraph at lines 58--71
 [][] 
  []
 
@@ -541,19 +541,40 @@ Package pdftex.def Info: Imagenes/Grafica_bc.jpg  used on input line 86.
 LaTeX Warning: Float too large for page by 8.98596pt on input line 88.
 
 [2 <./Imagenes/Entrenador.png>] [3 <./Imagenes/Grafica_ac.jpg> <./Imagenes/Graf
-ica_ab.jpg> <./Imagenes/Grafica_bc.jpg>] ("Ley de Ohm y teorema de Thevenin.aux
-"
+ica_ab.jpg> <./Imagenes/Grafica_bc.jpg>]
+<Imagenes/Entrenador_B.png, id=31, 653.44125pt x 273.64734pt>
+File: Imagenes/Entrenador_B.png Graphic file (type png)
+<use Imagenes/Entrenador_B.png>
+Package pdftex.def Info: Imagenes/Entrenador_B.png  used on input line 97.
+(pdftex.def)             Requested size: 326.71982pt x 136.82333pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--114
+
+ []
+
+<Imagenes/circuito.png, id=32, 554.44641pt x 179.16937pt>
+File: Imagenes/circuito.png Graphic file (type png)
+<use Imagenes/circuito.png>
+Package pdftex.def Info: Imagenes/circuito.png  used on input line 119.
+(pdftex.def)             Requested size: 277.22252pt x 89.58446pt.
+[4 <./Imagenes/Entrenador_B.png> <./Imagenes/circuito.png>] [5]
+("Ley de Ohm y teorema de Thevenin.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 2664 strings out of 493308
- 35593 string characters out of 3138765
+ 2675 strings out of 493308
+ 35851 string characters out of 3138765
  101925 words of memory out of 3000000
- 6182 multiletter control sequences out of 15000+200000
+ 6191 multiletter control sequences out of 15000+200000
  9157 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,7n,30p,606b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,8n,30p,606b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
@@ -564,10 +585,10 @@ e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Ley de Ohm y teorema de Thevenin.pdf" (4 pages, 542739 bytes
-).
+Output written on "Ley de Ohm y teorema de Thevenin.pdf" (6 pages, 1195255 byte
+s).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
