@@ -1,5 +1,6 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{graphicx}
 \usepackage[spanish]{babel}
 
 \begin{document}
@@ -52,9 +53,8 @@ R_{Th}=R_{ab}\|_{Todas\,las\,fuentes\,cortocircuitadas}
 
 \section{Realización de la Práctica}
 En la primera parte de la sesión debiamos identificar los elementos circuitales que se encontraban en el entrenador. El circuito estaba compuesto por 4 resistencias, una conexión para un amperímetro, y una conexión para una fuente de ténsión variable.\\
-En la siguiente tabla se muestran los valores obtenidos de las resistencias:
+En la siguiente tabla se muestran los valores obtenidos de las resistencias:\\
 
-\begin{table}
 \begin{tabular}{|c|c|c|c|c|}
 \hline 
 / & Valor ominal & Tolerancia & Valor medio & Precisión del polímetro \\ 
@@ -67,8 +67,28 @@ R3 & 10,0 & 5\% & 9,97 & 0,12 \\
 \hline 
 R4 & 22,0 & 5\% & 21,79 & 0,23 \\ 
 \hline 
+\end{tabular}\\
 
-\end{tabular} 
-\end{table}
+Una vez obtenidos los valores de las resistencias, se montó el dibujo de la figura 2. En éste, se midió el valor de las tensiones Vaby Vbc en el intervalo de [0,20V] con estos datos que quedan reflejados en la tabla del apendice obtuvimos las siguientes gráficas:
+
+
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.5]{Imagenes/Entrenador.png}
+\caption{Circuito A del entrenador}
+\end{figure}
+\begin{figure}[hbtp]
+\centering
+\includegraphics[scale=0.5]{Imagenes/Grafica_ac.jpg}
+\caption{Gráfica ac}
+\includegraphics[scale=0.5]{Imagenes/Grafica_ab.jpg}
+\caption{Gráfica ab}
+\includegraphics[scale=0.5]{Imagenes/Grafica_bc.jpg}
+\caption{Gráfica bc}
+\end{figure}
+
+\subsection{Theorema de Thevenin}
+Hola a todos
+
 
 \end{document}
