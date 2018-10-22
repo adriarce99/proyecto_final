@@ -1,0 +1,59 @@
+% Encoding: UTF-8
+
+@Book{Schueler1992,
+  title     = {Curso de f{\'\i}sica: mec{\'a}nica y ondas : 3 . medio},
+  publisher = {Universitaria},
+  year      = {1992},
+  author    = {Sch{\"u}ler, C.M.},
+  series    = {Colecci{\'o}n escolar},
+  url       = {https://books.google.es/books?id=7JkktAEACAAJ},
+}
+
+@Book{gonzalez2006algebra,
+  title     = {{\'A}lgebra lineal con m{\'e}todos elementales},
+  publisher = {Ediciones Paraninfo. S.A.},
+  year      = {2006},
+  author    = {Gonz{\'a}lez, L.M.M. and Al{\'a}ez, E.S.},
+  isbn      = {9788497324816},
+  url       = {https://books.google.es/books?id=5EIKH5451rUC},
+}
+
+@Book{hawking2015,
+  title     = {Brev{\'\i}sima historia del tiempo},
+  publisher = {Editorial Cr{\'\i}tica},
+  year      = {2015},
+  author    = {Hawking, S. and Mlodinow, L.},
+  series    = {Biblioteca Stephen Hawking},
+  isbn      = {9788498927948},
+  url       = {https://books.google.es/books?id=CGqLBgAAQBAJ},
+}
+
+@Book{hawking2016gran,
+  title     = {La gran ilusi{\'o}n: Las grandes obras de Albert Einstein. Edici{\'o}n de Stephen Hawking},
+  publisher = {Grupo Planeta},
+  year      = {2016},
+  author    = {Hawking, S. and varios, T.},
+  series    = {Drakontos},
+  isbn      = {9788498929256},
+  url       = {https://books.google.es/books?id=v3hdCwAAQBAJ},
+}
+
+@Book{Quintero2018,
+  title     = {Instrumentaci{\'o}n electr{\'o}nica aplicada},
+  publisher = {Editorial Universidad del Norte},
+  year      = {2018},
+  author    = {Quintero, C.},
+  isbn      = {9789587419191},
+  url       = {https://books.google.es/books?id=53haDwAAQBAJ},
+}
+
+@Book{Zetina2000,
+  title     = {Electr{\'o}nica b{\'a}sica},
+  publisher = {Limusa/Noriega},
+  year      = {2000},
+  author    = {Zetina, A. and M, {\'A}.Z. and C, {\'A}.Z.},
+  isbn      = {9789681857905},
+  url       = {https://books.google.es/books?id=PAoPY6xzkl0C},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

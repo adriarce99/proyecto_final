@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.18)  21 OCT 2018 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.18)  22 OCT 2018 18:26
 entering extended mode
 **"./Ley de Ohm y teorema de Thevenin.tex"
 ("Ley de Ohm y teorema de Thevenin.tex"
@@ -401,18 +401,18 @@ LaTeX Info: Redefining \% on input line 6.
 )
 \openout1 = `"Ley de Ohm y teorema de Thevenin.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -479,116 +479,127 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 11.
+(Font)              <12> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
+(Font)              <8> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
+(Font)              <6> on input line 12.
  [1
 
 {C:/Users/Adrian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 22.
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--44
-
- []
-
-[1]
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
+(Font)              <10.95> on input line 28.
+ [1]
+Underfull \hbox (badness 10000) in paragraph at lines 45--50
 
  []
 
 
-Overfull \hbox (16.20903pt too wide) in paragraph at lines 58--71
+Underfull \hbox (badness 10000) in paragraph at lines 45--50
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
+
+ []
+
+
+Overfull \hbox (16.20903pt too wide) in paragraph at lines 65--78
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--71
+Underfull \hbox (badness 10000) in paragraph at lines 65--78
 
  []
 
-<Imagenes/Entrenador.png, id=18, 677.15485pt x 296.98453pt>
+<Imagenes/Entrenador.png, id=22, 677.15485pt x 296.98453pt>
 File: Imagenes/Entrenador.png Graphic file (type png)
 <use Imagenes/Entrenador.png>
-Package pdftex.def Info: Imagenes/Entrenador.png  used on input line 77.
+Package pdftex.def Info: Imagenes/Entrenador.png  used on input line 84.
 (pdftex.def)             Requested size: 338.5766pt x 148.4919pt.
-<Imagenes/Grafica_ac.jpg, id=20, 467.2pt x 350.4pt>
+<Imagenes/Grafica_ac.jpg, id=24, 467.2pt x 350.4pt>
 File: Imagenes/Grafica_ac.jpg Graphic file (type jpg)
 <use Imagenes/Grafica_ac.jpg>
-Package pdftex.def Info: Imagenes/Grafica_ac.jpg  used on input line 82.
+Package pdftex.def Info: Imagenes/Grafica_ac.jpg  used on input line 89.
 (pdftex.def)             Requested size: 233.59943pt x 175.19957pt.
-<Imagenes/Grafica_ab.jpg, id=21, 467.2pt x 350.4pt>
+<Imagenes/Grafica_ab.jpg, id=25, 467.2pt x 350.4pt>
 File: Imagenes/Grafica_ab.jpg Graphic file (type jpg)
 <use Imagenes/Grafica_ab.jpg>
-Package pdftex.def Info: Imagenes/Grafica_ab.jpg  used on input line 84.
+Package pdftex.def Info: Imagenes/Grafica_ab.jpg  used on input line 91.
 (pdftex.def)             Requested size: 233.59943pt x 175.19957pt.
-<Imagenes/Grafica_bc.jpg, id=22, 467.2pt x 350.4pt>
+<Imagenes/Grafica_bc.jpg, id=26, 467.2pt x 350.4pt>
 File: Imagenes/Grafica_bc.jpg Graphic file (type jpg)
 <use Imagenes/Grafica_bc.jpg>
-Package pdftex.def Info: Imagenes/Grafica_bc.jpg  used on input line 86.
+Package pdftex.def Info: Imagenes/Grafica_bc.jpg  used on input line 93.
 (pdftex.def)             Requested size: 233.59943pt x 175.19957pt.
 
-LaTeX Warning: Float too large for page by 8.98596pt on input line 88.
+LaTeX Warning: Float too large for page by 8.98596pt on input line 95.
 
-[2 <./Imagenes/Entrenador.png>] [3 <./Imagenes/Grafica_ac.jpg> <./Imagenes/Graf
+[3 <./Imagenes/Entrenador.png>] [4 <./Imagenes/Grafica_ac.jpg> <./Imagenes/Graf
 ica_ab.jpg> <./Imagenes/Grafica_bc.jpg>]
-<Imagenes/Entrenador_B.png, id=31, 653.44125pt x 273.64734pt>
+<Imagenes/Entrenador_B.png, id=34, 653.44125pt x 273.64734pt>
 File: Imagenes/Entrenador_B.png Graphic file (type png)
 <use Imagenes/Entrenador_B.png>
-Package pdftex.def Info: Imagenes/Entrenador_B.png  used on input line 97.
+Package pdftex.def Info: Imagenes/Entrenador_B.png  used on input line 104.
 (pdftex.def)             Requested size: 326.71982pt x 136.82333pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--114
+Underfull \hbox (badness 10000) in paragraph at lines 110--121
 
  []
 
-<Imagenes/circuito.png, id=32, 554.44641pt x 179.16937pt>
+<Imagenes/circuito.png, id=35, 554.44641pt x 179.16937pt>
 File: Imagenes/circuito.png Graphic file (type png)
 <use Imagenes/circuito.png>
-Package pdftex.def Info: Imagenes/circuito.png  used on input line 119.
+Package pdftex.def Info: Imagenes/circuito.png  used on input line 126.
 (pdftex.def)             Requested size: 277.22252pt x 89.58446pt.
-[4 <./Imagenes/Entrenador_B.png> <./Imagenes/circuito.png>] [5]
-("Ley de Ohm y teorema de Thevenin.aux"
+[5 <./Imagenes/Entrenador_B.png> <./Imagenes/circuito.png>]
+No file "Ley de Ohm y teorema de Thevenin".bbl.
+
+LaTeX Warning: Citation `Quintero2018' undefined on input line 135.
+
+
+LaTeX Warning: Citation `Zetina2000' undefined on input line 136.
+
+[6] ("Ley de Ohm y teorema de Thevenin.aux"
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-) ) 
+)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2675 strings out of 493308
- 35851 string characters out of 3138765
- 101925 words of memory out of 3000000
- 6191 multiletter control sequences out of 15000+200000
+ 2678 strings out of 493308
+ 35881 string characters out of 3138765
+ 103925 words of memory out of 3000000
+ 6193 multiletter control sequences out of 15000+200000
  9157 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,30p,606b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Ley de Ohm y teorema de Thevenin.pdf" (6 pages, 1195255 byte
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Ley de Ohm y teorema de Thevenin.pdf" (7 pages, 1201292 byte
 s).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
