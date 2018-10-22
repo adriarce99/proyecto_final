@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.18)  22 OCT 2018 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.9.18)  22 OCT 2018 19:47
 entering extended mode
 **"./Ley de Ohm y teorema de Thevenin.tex"
 ("Ley de Ohm y teorema de Thevenin.tex"
@@ -587,111 +587,111 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 17.
+(Font)              <7> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 17.
+(Font)              <5> on input line 16.
  [1
 
 {C:/Users/Adrian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 34.
+(Font)              <10.95> on input line 44.
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--57
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--67
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
  []
 
 
-Overfull \hbox (16.20903pt too wide) in paragraph at lines 70--83
+Overfull \hbox (16.20903pt too wide) in paragraph at lines 80--93
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--83
+Underfull \hbox (badness 10000) in paragraph at lines 80--93
 
  []
 
 <Imagenes/Entrenador.png, id=53, 677.15485pt x 296.98453pt>
 File: Imagenes/Entrenador.png Graphic file (type png)
 <use Imagenes/Entrenador.png>
-Package pdftex.def Info: Imagenes/Entrenador.png  used on input line 89.
+Package pdftex.def Info: Imagenes/Entrenador.png  used on input line 99.
 (pdftex.def)             Requested size: 338.5766pt x 148.4919pt.
 <Imagenes/Grafica_ac.jpg, id=55, 467.2pt x 350.4pt>
 File: Imagenes/Grafica_ac.jpg Graphic file (type jpg)
 <use Imagenes/Grafica_ac.jpg>
-Package pdftex.def Info: Imagenes/Grafica_ac.jpg  used on input line 95.
+Package pdftex.def Info: Imagenes/Grafica_ac.jpg  used on input line 105.
 (pdftex.def)             Requested size: 233.59943pt x 175.19957pt.
 <Imagenes/Grafica_ab.jpg, id=56, 467.2pt x 350.4pt>
 File: Imagenes/Grafica_ab.jpg Graphic file (type jpg)
 <use Imagenes/Grafica_ab.jpg>
-Package pdftex.def Info: Imagenes/Grafica_ab.jpg  used on input line 97.
+Package pdftex.def Info: Imagenes/Grafica_ab.jpg  used on input line 107.
 (pdftex.def)             Requested size: 233.59943pt x 175.19957pt.
 <Imagenes/Grafica_bc.jpg, id=57, 467.2pt x 350.4pt>
 File: Imagenes/Grafica_bc.jpg Graphic file (type jpg)
 <use Imagenes/Grafica_bc.jpg>
-Package pdftex.def Info: Imagenes/Grafica_bc.jpg  used on input line 99.
+Package pdftex.def Info: Imagenes/Grafica_bc.jpg  used on input line 109.
 (pdftex.def)             Requested size: 233.59943pt x 175.19957pt.
 
-LaTeX Warning: Float too large for page by 8.98596pt on input line 101.
+LaTeX Warning: Float too large for page by 8.98596pt on input line 111.
 
 [3 <./Imagenes/Entrenador.png>] [4 <./Imagenes/Grafica_ac.jpg> <./Imagenes/Graf
 ica_ab.jpg> <./Imagenes/Grafica_bc.jpg>]
 <Imagenes/Entrenador_B.png, id=71, 653.44125pt x 273.64734pt>
 File: Imagenes/Entrenador_B.png Graphic file (type png)
 <use Imagenes/Entrenador_B.png>
-Package pdftex.def Info: Imagenes/Entrenador_B.png  used on input line 110.
+Package pdftex.def Info: Imagenes/Entrenador_B.png  used on input line 120.
 (pdftex.def)             Requested size: 326.71982pt x 136.82333pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--127
+Underfull \hbox (badness 10000) in paragraph at lines 126--137
 
  []
 
 <Imagenes/circuito.png, id=72, 554.44641pt x 179.16937pt>
 File: Imagenes/circuito.png Graphic file (type png)
 <use Imagenes/circuito.png>
-Package pdftex.def Info: Imagenes/circuito.png  used on input line 132.
+Package pdftex.def Info: Imagenes/circuito.png  used on input line 142.
 (pdftex.def)             Requested size: 277.22252pt x 89.58446pt.
 [5 <./Imagenes/Entrenador_B.png> <./Imagenes/circuito.png>]
 ("Ley de Ohm y teorema de Thevenin.bbl")
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
  [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
 
 ("Ley de Ohm y teorema de Thevenin.aux"
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `"Ley de Ohm y teorema de Thevenin".out' has 
 not changed.
 (rerunfilecheck)             Checksum: 34A04E0C35B71F103793B7944071776D;425.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 6266 strings out of 493308
- 90387 string characters out of 3138765
+ 6267 strings out of 493308
+ 90392 string characters out of 3138765
  184212 words of memory out of 3000000
- 9734 multiletter control sequences out of 15000+200000
+ 9735 multiletter control sequences out of 15000+200000
  9632 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  28i,8n,30p,617b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -705,7 +705,7 @@ amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "Ley de Ohm y teorema de Thevenin.pdf" (6 pages, 1210715 byte
+Output written on "Ley de Ohm y teorema de Thevenin.pdf" (6 pages, 1211146 byte
 s).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
