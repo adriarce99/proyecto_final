@@ -9,7 +9,7 @@
   url       = {https://books.google.es/books?id=7JkktAEACAAJ},
 }
 
-@Book{gonzález2006álgebra,
+@Book{gonzalez2006algebra,
   title     = {{\'A}lgebra lineal con m{\'e}todos elementales},
   publisher = {Ediciones Paraninfo. S.A.},
   year      = {2006},

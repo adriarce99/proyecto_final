@@ -1,35 +1,41 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{hyperref}
 \usepackage[spanish]{babel}
 
 
 \begin{document}
 
-\begin{titlepage}
-\title{Ley de Ohm y teorema de Thevenin}
-\author{Adrián Arce Sánchez}
+
+\title{\textbf{Ley de Ohm y Teorema de Thévenin}}
+\author{ Por Adrián Arce Sánchez}
 \maketitle
-\end{titlepage}
+
 
 \begin{abstract}
-En este informe se realiza el estudio del circuito de un entrenador mediante la ley de Ohm. Una vez estudiado se hará uso de este para probar el teorema de Thevenin.
+\url{https://github.com/adriarce99/proyecto_final.git}\\
+En este informe se realiza el estudio del circuito de un entrenador mediante la ley de Ohm. Una vez estudiado se hará uso de este para probar el teorema de Thévenin.
 \end{abstract}
 
-\subsection*{Keywords}
-Resistencia, Potenciómetro, Teorema de Thevenin, Entrenador, Polímetro.
+\subsection*{Palabras clave:}
+Resistencia, Potenciómetro, Teorema de Thévenin, Entrenador, Polímetro.
 
 \section{Introducción}
-Muchas veces resulta difícil estudiar el circuito electrico interno de ciertos dispositivos debido a su complejidad o inaccesibilidad. En los casos en los que no se requiere de un gran detalle de lo que ocurre en su interior es posible simplificar su represetación a una fuente de tensión ideal conectada en serie a una resistencia. Esto es posible gracias al Teorema de Thevenin.
+Muchas veces resulta difícil estudiar la estructura interna de ciertos dispositivos debido a su complejidad o inaccesibilidad. En los casos en los que no se requiere de un gran detalle de la fabricación de su interior, es posible simplificar su representación a una fuente de tensión ideal conectada en serie a una resistencia. Esto es posible gracias al Teorema de Thévenin.
 
+\section{Estado del Arte}
+Este experimento se basa en las aportaciones de León Charles Thévenin ingeniero francés nacido en Meaux en el año 1857. Durante su carrera extendió y aplicó la conocida Ley de Ohm a la los circuitos complejos y creo el Teorema que lleva su nombre. Permitiendo la simplificación de grandes conjuntos de elemetos de un circuito a solo dos de ellos conocidos como Tensión y Resistencia de Thevenin. Su aportación hizo posible la representación de grandes circuitos e instalaciones en gráficos con una mayor comprensión.
+
+\newpage
 \section{Fundamento Teórico}
-Uno de los conceptos clave a la hora de hablar de un circuito es la ley de Ohm. Esta, establece una relación de proporcionalidad entre la corriente que circula por un elemento circuital y la diferencia de potencial en los extremos del mismo. La constante de proporcionalidad que rige esta ley se denomina la esistencia. Se trata de una propiedad intrinseca de cada elemento circuital siendo la capacidad de oponerse al flujo de corriente que lo atraviesa. Esta propiedad depende de las dimensones del material con el que se ha construido dicho circuito.
+Uno de los conceptos clave a la hora de hablar de un circuito es la ley de Ohm. Ésta, establece una relación de proporcionalidad entre la corriente que circula por un elemento circuital y la diferencia de potencial en los extremos del mismo. La constante de proporcionalidad que rige esta ley se denomina la existencia. Se trata de una propiedad intrínseca de cada elemento circuital siendo ésta, la capacidad de oponerse al flujo de corriente que lo atraviesa. Esta propiedad depende de las dimensiones del material con el que se ha construido dicho circuito.
 
 \begin{displaymath}
 V_{0}=RI
 \end{displaymath}
 
-Cuando por dos o más elementos circuitales fluye la misma corriente se dice que estos elementos están conectados en serie. En estos casos es posible crear un circuito equivalente en el cual todos los elementos que presentan resistencia a la corriente se representan mediante una unica resistencia cuyo valor queda definido como la suma de todas las resistencias de los elementos por separado.
+Cuando por dos o más elementos del circuito fluye la misma corriente se dice que estos elementos están conectados en serie. En estos casos es posible crear un circuito equivalente en el cual todos los elementos que presentan resistencia a la corriente se representan mediante una única resistencia cuyo valor queda definido como la suma de todas las resistencias de los elementos por separado.
 
 \begin{displaymath}
 R_{serie}=\sum_{i=1}^N R_{i}
@@ -41,25 +47,24 @@ Además, podemos declarar a partir de las resistencias en serie, una asociación
 V_i=\frac{R_i}{\sum_{i=1}^N R_{i}}V_0
 \end{displaymath}
 
-\subsection{Teorema de Thevenin-Norton}
-El teorema de Thevenin-Norton permite estudiar circuitos complejos a los cuales somos incapaces de acceder en su totalidad o resultan demasiado complejos para poder ser representados gráficamente.\\ \\
+\subsection{Teorema de Thévenin-Norton}
+El teorema de Thévenin-Norton permite estudiar circuitos complejos a los cuales somos incapaces de acceder en su totalidad o resultan demasiado complejos para poder ser representados gráficamente.\\ \\
+
 \begin{em}
-“Cualquier red fuente resistiva lineal actúa desde una par de terminales como una fuente de tensión ideal, denominada tensión Thevenin, conectada en serie a una resistencia de valor RTh, denominada resistencia Thevenin”
+“Cualquier red fuente resistiva lineal actúa desde una par de terminales como una fuente de tensión ideal, denominada tensión Thévenin, conectada en serie a una resistencia de valor $R_{Th}$, denominada resistencia Thévenin”
 \end{em}\\ \\
 De este modo, es posible obtener la tensión Thevenin y la resistencia Thevenin en las siguientes condiciones:
-
 
 \begin{displaymath}
 V_{Th}=V_{ab}\|_{I=0}
 \end{displaymath}
-
 \begin{displaymath}
 R_{Th}=R_{ab}\|_{Todas\,las\,fuentes\,cortocircuitadas}
 \end{displaymath}
 
 \newpage
 \section{Realización de la Práctica}
-En la primera parte de la sesión debiamos identificar los elementos circuitales que se encontraban en el entrenador. El circuito estaba compuesto por 4 resistencias, una conexión para un amperímetro, y una conexión para una fuente de ténsión variable.\\
+En la primera parte de la sesión debíamos identificar los elementos circuitales que se encontraban en el entrenador. El circuito estaba compuesto por 4 resistencias, una conexión para un amperímetro, y una conexión para una fuente de tensión variable.\\
 En la siguiente tabla se muestran los valores obtenidos de las resistencias:\\
 
 \begin{tabular}{|c|c|c|c|c|}
@@ -76,7 +81,7 @@ R4 & 22,0 & 5\% & 21,79 & 0,23 \\
 \hline 
 \end{tabular}\\
 
-Una vez obtenidos los valores de las resistencias, se montó el dibujo de la figura 2. En éste, se midió el valor de las tensiones Vab y Vbc en el intervalo de [0,20V] con estos datos que quedan reflejados en la tabla del apendice obtuvimos las siguientes gráficas:
+Una vez obtenidos los valores de las resistencias, se montó el dibujo de la figura 2. En éste, se midió el valor de las tensiones $V_{ab}$ y $V_{bc}$ en el intervalo de [0 V,20 V] con estos datos que quedan reflejados en la tabla del apéndice obtuvimos las siguientes gráficas:
 
 
 \begin{figure}[hbtp]
@@ -84,6 +89,7 @@ Una vez obtenidos los valores de las resistencias, se montó el dibujo de la fig
 \includegraphics[scale=0.5]{Imagenes/Entrenador.png}
 \caption{Circuito A del entrenador}
 \end{figure}
+
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.5]{Imagenes/Grafica_ac.jpg}
@@ -95,9 +101,9 @@ Una vez obtenidos los valores de las resistencias, se montó el dibujo de la fig
 \end{figure}
 
 \newpage
-\subsection{Theorema de Thevenin}
+\subsection{Teorema de Thévenin}
 
-Para probar el teorema de thevenin se preparó en el entrenador el circuito de la figura 1 añadiendo dos cables de cobre.
+Para probar el teorema de Thévenin se preparó en el entrenador el circuito de la figura 1 añadiendo dos cables de cobre.
 
 \begin{figure}[hbtp]
 \centering
@@ -105,13 +111,13 @@ Para probar el teorema de thevenin se preparó en el entrenador el circuito de l
 \caption{Circuito B del entrenador}
 \end{figure}
 
-Tras ello, procedimos a medir la tensión Thevenin y la resistencia Thevenin entre los terminales “A”, y “B”. Además se hizo uso de una resistencia de valor nominal de 100 $\Omega$ para medir la tensión en la resistencia cuando se conecta a los puntos “A”,y “B”. De este modo obtuvimos los siguientes resultados:\\
+Tras ello, procedimos a medir la tensión Thévenin y la resistencia Thévenin entre los terminales “A”, y “B”. Además se hizo uso de una resistencia de valor nominal de 100 $\Omega$ para medir la tensión en la resistencia cuando se conecta a los puntos “A”,y “B”. De este modo obtuvimos los siguientes resultados:\\
 
 \begin{tabular}{|c|c|}
 \hline
-Tensión Thevenin experimental ($V_{Th}$) & 5,76 V\\
+Tensión Thévenin experimental ($V_{Th}$) & 5,76 V\\
 \hline
-Resistencia Thevenin experimental ($R_{Th}$) & 10,92 k$\Omega$ \\
+Resistencia Thévenin experimental ($R_{Th}$) & 10,92 k$\Omega$ \\
 \hline
 Valor de la resistencia de carga ($R_{carga}$) & 98,7 $\Omega$ \\
 \hline
@@ -126,15 +132,10 @@ Tras ello se montó un circuito equivalente formado por una fuente de tensión c
 \includegraphics[scale=0.5]{Imagenes/circuito.png}
 \caption{Circuito equivalente}
 \end{figure}
-Obteniendo un valor de 98,6 $\Omega$ y 51,6 mV. La diferencia de valores respecto al circuito original puede ser debido a o disponer de una fuente de tension de suficiente precision para alcanzar la tensión $V_{Th}$.
+
+Obteniendo un valor de 98,6 $\Omega$ y 51,6 mV. La diferencia de valores respecto al circuito original puede ser debido a o disponer de una fuente de tensión de suficiente precisión para alcanzar la tensión $V_{Th}$.
 
 \newpage
-\bibliography{Milibreria}
-\bibliographystyle{plain} 
-
-\nocite{Quintero2018}
-\nocite{Zetina2000}
-
 \section{Apéndice}
 \subsection*{Datos del entrenador A}
 \begin{tabular}{|c|c|c|c|}
@@ -182,4 +183,12 @@ $V$	&    $V_{ab}(V)$	  &      $V_{bc}(V)$	    &    $I(mA)$ \\
 20,0   & 	2,473 $\pm$  0,014     &   17,59 $\pm$  0,11	 &   0,531 $\pm$  0,007\\
 \hline
 \end{tabular}
+
+\bibliography{Milibreria}
+\bibliographystyle{plain} 
+
+\nocite{Quintero2018}
+\nocite{Zetina2000}
+
+
 \end{document}
